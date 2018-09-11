@@ -6,3 +6,6 @@ c:\users\fumi\Source\Repos\MPlusLeaderBoardTester\MPlusLeaderBoardTester\obj\Deb
 c:\users\fumi\Source\Repos\MPlusLeaderBoardTester\MPlusLeaderBoardTester\obj\Debug\netcoreapp2.1\MPlusLeaderBoardTester.csproj.CoreCompileInputs.cache
 c:\users\fumi\Source\Repos\MPlusLeaderBoardTester\MPlusLeaderBoardTester\obj\Debug\netcoreapp2.1\MPlusLeaderBoardTester.AssemblyInfoInputs.cache
 c:\users\fumi\Source\Repos\MPlusLeaderBoardTester\MPlusLeaderBoardTester\obj\Debug\netcoreapp2.1\MPlusLeaderBoardTester.AssemblyInfo.cs
+C:\Users\Fumi\Source\Repos\MPlusLeaderBoardTester\MPlusLeaderBoardTester\bin\Debug\netcoreapp2.1\MPlusLeaderBoardTester.pdb
+C:\Users\Fumi\Source\Repos\MPlusLeaderBoardTester\MPlusLeaderBoardTester\obj\Debug\netcoreapp2.1\MPlusLeaderBoardTester.dll
+C:\Users\Fumi\Source\Repos\MPlusLeaderBoardTester\MPlusLeaderBoardTester\obj\Debug\netcoreapp2.1\MPlusLeaderBoardTester.pdb

@@ -216,6 +216,15 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
+      },
+      "RestSharp/106.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
       }
     }
   },
@@ -710,12 +719,24 @@
         "newtonsoft.json.11.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
       ]
+    },
+    "RestSharp/106.3.1": {
+      "sha512": "TmlN7SXjK52zzpQDTuzw7IH3XQ2Svtss/4zvQBKIgf74QIVxvlxoAqQYu1EhNQ1bMSBIQ4aK120BO7W+v8/kiQ==",
+      "type": "package",
+      "path": "restsharp/106.3.1",
+      "files": [
+        "lib/net452/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.dll",
+        "restsharp.106.3.1.nupkg.sha512",
+        "restsharp.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
-      "Newtonsoft.Json >= 11.0.2"
+      "Newtonsoft.Json >= 11.0.2",
+      "RestSharp >= 106.3.1"
     ]
   },
   "packageFolders": {
@@ -725,11 +746,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\fumi\\Source\\Repos\\MPlusLeaderBoardTester\\MPlusLeaderBoardTester\\MPlusLeaderBoardTester.csproj",
+      "projectUniqueName": "C:\\Users\\Fumi\\Source\\Repos\\MPlusLeaderBoardTester\\MPlusLeaderBoardTester\\MPlusLeaderBoardTester.csproj",
       "projectName": "MPlusLeaderBoardTester",
-      "projectPath": "c:\\users\\fumi\\Source\\Repos\\MPlusLeaderBoardTester\\MPlusLeaderBoardTester\\MPlusLeaderBoardTester.csproj",
+      "projectPath": "C:\\Users\\Fumi\\Source\\Repos\\MPlusLeaderBoardTester\\MPlusLeaderBoardTester\\MPlusLeaderBoardTester.csproj",
       "packagesPath": "C:\\Users\\Fumi\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\fumi\\Source\\Repos\\MPlusLeaderBoardTester\\MPlusLeaderBoardTester\\obj\\",
+      "outputPath": "C:\\Users\\Fumi\\Source\\Repos\\MPlusLeaderBoardTester\\MPlusLeaderBoardTester\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -767,6 +788,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[11.0.2, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[106.3.1, )"
           }
         },
         "imports": [

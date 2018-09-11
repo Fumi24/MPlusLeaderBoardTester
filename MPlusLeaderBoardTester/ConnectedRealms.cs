@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MPlusLeaderBoardTester
 {
-    public class ConnectedRealms
+    public partial class ConnectedRealms
     {
         [JsonProperty("_links")]
         public Links Links { get; set; }
@@ -14,13 +14,13 @@ namespace MPlusLeaderBoardTester
         public Self[] ConnectedRealmsConnectedRealms { get; set; }
     }
 
-    public class Self
+    public partial class Self
     {
         [JsonProperty("href")]
         public string Href { get; set; }
     }
 
-    public class Links
+    public partial class Links
     {
         [JsonProperty("self")]
         public Self Self { get; set; }
